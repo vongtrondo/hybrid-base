@@ -81,3 +81,6 @@ function hybrid_base_theme_setup() {
 	// Handle content width for embeds and images.
 	hybrid_set_content_width( 1280 );
 }
+
+// LOAD Custom functions
+require_once( 'apps/le.php' );
